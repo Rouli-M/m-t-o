@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Rouli;
+  src: url("Rouli.ttf");
+}
+
+div {
+  font-family: Rouli;
+  align-self: center;
+  font-size:x-large;
+
+  margin: 20%;
+}
+
+body {
+    background-color: lightblue;
+
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px dashed #0063a1;
+
+  }
+
+  img {
+    margin: auto; /* Important */
+    margin-top: 100px;
+    text-align: center;
+  }
